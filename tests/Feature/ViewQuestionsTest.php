@@ -12,7 +12,7 @@ class ViewQuestionsTest extends TestCase
      *
      * @return void
      */
-    public function testUserCanViewQuestions()
+    public function user_can_view_questions()
     {   // 0.拋出異常
         $this->withoutExceptionHandling();
 
