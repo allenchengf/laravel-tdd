@@ -7,11 +7,7 @@ use Tests\TestCase;
 
 class ViewQuestionsTest extends TestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
+    /**  @test */
     public function user_can_view_questions()
     {   // 0.拋出異常
         $this->withoutExceptionHandling();
